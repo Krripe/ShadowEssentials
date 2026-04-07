@@ -185,7 +185,6 @@ object TempFlyCommands {
                         if (left <= 0) {
                             val added = TempFlyManager.claimDailyIfAvailable(player)
                             if (added > 0) {
-                                // mesajul de daily vine din manager, aici doar actualizăm left
                                 left = TempFlyManager.remaining(player)
                             }
                         }
